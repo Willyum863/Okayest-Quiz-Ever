@@ -1,0 +1,82 @@
+header {
+    padding: 20px;
+    background-color: aqua;
+}
+
+h1, h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.countdown {
+    font-size: 15px;
+    color:seashell;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: blue;
+    
+}
+
+.quizBox, .gameOver, .myButton {
+    text-align: center;
+    justify-content: center;
+
+}  
+
+.answerButtons, .theButtons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+
+.footer {
+    color: black;
+    padding: 20px;
+    border-top: 2px solid;
+    background-color:aqua;
+}
+
+.userInput {
+    margin-bottom: 10px;
+    border: solid;
+}
+
+.userInput:focus {
+    background-color: white;
+}
